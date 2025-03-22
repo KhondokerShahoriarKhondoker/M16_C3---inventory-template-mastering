@@ -2,16 +2,23 @@
     <div class="modal-dialog modal-md modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Update Category</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Update Customer</h5>
             </div>
             <div class="modal-body">
                 <form id="update-form">
                     <div class="container">
                         <div class="row">
                             <div class="col-12 p-1">
-                                <label class="form-label">Category Name *</label>
-                                <input type="text" class="form-control" id="categoryNameUpdate">
-                                <input class="d-none" id="updateID">
+                                <label class="form-label">Customer Name *</label>
+                                <input type="text" class="form-control" id="customerNameUpdate">
+
+                                <label class="form-label mt-3">Customer Email *</label>
+                                <input type="text" class="form-control" id="customerEmailUpdate">
+
+                                <label class="form-label mt-3">Customer Mobile *</label>
+                                <input type="text" class="form-control" id="customerMobileUpdate">
+
+                                <input type="text" class="d-none" id="updateID">
                             </div>
                         </div>
                     </div>

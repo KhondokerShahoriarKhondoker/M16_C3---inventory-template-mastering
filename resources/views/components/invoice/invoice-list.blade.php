@@ -4,19 +4,23 @@
         <div class="card px-5 py-5">
             <div class="row justify-content-between ">
                 <div class="align-items-center col">
-                    <h4>Category</h4>
+                    <h5>Invoices</h5>
                 </div>
                 <div class="align-items-center col">
-                    <button data-bs-toggle="modal" data-bs-target="#create-modal" class="float-end btn m-0 bg-gradient-primary">Create</button>
+                    <a    href="{{url("/salePage")}}" class="float-end btn m-0 bg-gradient-primary">Create Sale</a>
                 </div>
             </div>
-            <hr class="bg-secondary"/>
-            <div class="table-responsive">
+            <hr class="bg-dark "/>
             <table class="table" id="tableData">
                 <thead>
                 <tr class="bg-light">
                     <th>No</th>
-                    <th>Category</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Total</th>
+                    <th>Vat</th>
+                    <th>Discount</th>
+                    <th>Payable</th>
                     <th>Action</th>
                 </tr>
                 </thead>
@@ -24,9 +28,7 @@
 
                 </tbody>
             </table>
-            </div>
         </div>
     </div>
 </div>
 </div>
-

@@ -23,10 +23,6 @@
                                 <label>Mobile Number</label>
                                 <input id="mobile" placeholder="Mobile" class="form-control" type="mobile"/>
                             </div>
-                            <div class="col-md-4 p-2">
-                                <label>Password</label>
-                                <input id="password" placeholder="User Password" class="form-control" type="password"/>
-                            </div>
                         </div>
                         <div class="row m-0 p-0">
                             <div class="col-md-4 p-2">
@@ -39,3 +35,4 @@
         </div>
     </div>
 </div>
+
